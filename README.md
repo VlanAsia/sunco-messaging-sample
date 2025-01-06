@@ -27,13 +27,14 @@ A Node.js webhook server that integrates with Sunshine Conversations to handle m
 ## Environment Variables
 
 Create a `.env` file with the following variables:
-APP_ID=your_sunshine_app_id
-APP_KEY=your_sunshine_app_key
-APP_SECRET=your_sunshine_app_secret
-WEBHOOK_SECRET=your_webhook_secret
-OPENAI_API_KEY=your_openai_api_key
-PORT=3000 (optional)
-SUNSHINE_CONV_ROOT=https://api.smooch.io (optional)
+
+- APP_ID=your_sunshine_app_id
+- APP_KEY=your_sunshine_app_key
+- APP_SECRET=your_sunshine_app_secret
+- WEBHOOK_SECRET=your_webhook_secret
+- OPENAI_API_KEY=your_openai_api_key
+- PORT=3000 (optional)
+- SUNSHINE_CONV_ROOT=https://api.smooch.io (optional)
 
 The server will start on port 3000 by default or the port specified in your environment variables.
 
