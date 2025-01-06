@@ -2,6 +2,11 @@
 
 A Node.js webhook server that integrates with Sunshine Conversations to handle messaging interactions, OpenAI's GPT integration, and Zendesk support features.
 
+## Plugging in your own AI
+
+1. Replace the calling of OpenAI with your own AI model.
+2. This is in index.js file at line 55.
+
 ## Features
 
 - 🤖 AI-powered responses using OpenAI's GPT-3.5
@@ -92,8 +97,3 @@ Health check endpoint that returns the configuration status of:
 
 1. Type "buttons" in the chat
 2. Click the button you want to call again
-
-## Plugging in your own AI
-
-1. Replace the calling of OpenAI with your own AI model.
-2. This is in index.js file at line 55.
